@@ -19,6 +19,9 @@ pub use crate::point::Point;
 pub use crate::segment_bezier::SegmentBezier;
 pub use crate::segment_line::SegmentLine;
 
+pub mod registration_marks;
+pub mod svg_path;
+
 mod alignment_data;
 mod cut_data;
 mod encode;
